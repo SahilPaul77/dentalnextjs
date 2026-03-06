@@ -78,7 +78,7 @@ const StatsStrip = () => {
   ];
 
   return (
-    <div ref={stripRef} className="relative z-30 -mt-10 md:-mt-14 px-6">
+   <div ref={stripRef} className="relative z-30 -mt-10 md:-mt-3 px-6">
       <div className="container mx-auto max-w-5xl">
         <div
           ref={containerRef}

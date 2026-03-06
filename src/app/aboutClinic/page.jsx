@@ -84,8 +84,9 @@ export default function AboutClinic() {
         </div>
       </div>
 
-      {/* Client Animation Component */}
-      <AboutClinicAnimation />
+     
+     <AboutClinicAnimation />
     </section>
   );
 }
+

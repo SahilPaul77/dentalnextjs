@@ -140,7 +140,6 @@ export default async function ServiceDetail({ params }) {
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </section>
