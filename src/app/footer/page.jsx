@@ -86,7 +86,7 @@ const Footer = () => {
               <div>
                 <p className="text-xs text-stone-300 mb-1">Clinic Address</p>
                 <p className="text-sm font-light text-stone-300 leading-relaxed">
-               Address of your Location <br />
+              602-A, Krishna Mandir Rd, Ludhiana, Punjab 141002 <br />
                   
                 </p>
               </div>
