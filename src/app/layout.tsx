@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Bright Smile",
-  description: "website created in nextjs",
+export const metadata = {
+  title: "Best Dentist in Ludhiana | Bright Smile",
+  description: "Experienced dentist in Ludhiana. Book appointment for root canal, teeth cleaning, braces and more.",
 };
 
 export default function RootLayout({

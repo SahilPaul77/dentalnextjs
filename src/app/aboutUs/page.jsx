@@ -1,5 +1,11 @@
 import Image from 'next/image'
 
+ export const metadata = {
+  title: "About Us | Bright Smile - Trusted Dentist in Ludhiana",
+  description:
+    "Learn about our experienced dentist in [City], qualifications, and commitment to providing safe and painless dental care.",
+};
+
 const AboutUs = () => {
 
   return (
@@ -39,14 +45,14 @@ const AboutUs = () => {
           <div className="lg:pl-10">
             <header className="mb-8">
            
-              <h2 className="text-5xl md:text-6xl font-serif text-stone-900 leading-[1.1] mb-8">
+              <h1 className="text-5xl md:text-6xl font-serif text-stone-900 leading-[1.1] mb-8">
                 Defining the <br />
                 <span className="italic font-light text-stone-500">
                   New Standard
                 </span>{" "}
                 <br />
                 of Care.
-              </h2>
+              </h1>
             </header>
 
             <div className="space-y-6 text-stone-600 leading-relaxed font-light">

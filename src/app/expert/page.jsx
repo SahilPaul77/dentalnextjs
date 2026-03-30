@@ -1,6 +1,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
+export const metadata = {
+  title: "Best Dentist in Ludhiana – Dr. Shivani Sharma | Smile Care Clinic",
+  description: "Looking for the best dentist in Ludhiana? Dr. Shivani Sharma provides expert dental care including root canal, braces, teeth cleaning, and more.",
+};
+
 const OurTeam = () => {
 
   return (
@@ -29,7 +34,7 @@ const OurTeam = () => {
           {/* Biography Side */}
           <div className="w-full md:w-1/2">
             <p className="text-[14px] uppercase tracking-[0.2em] text-stone-400 mb-8">meet the expert</p>
-           <h2 className="text-4xl md:text-6xl font-serif leading-tight mb-8">
+           <h1 className="text-4xl md:text-6xl font-serif leading-tight mb-8">
   <span className="italic">
     Dr. Shivani Sharma
   </span>
@@ -37,7 +42,7 @@ const OurTeam = () => {
   <span className="block md:hidden font-light text-[14px] not-italic mt-1 uppercase tracking-[0.1em] text-stone-500 ">
    Founder & Chief Dentist
   </span>
-</h2>
+</h1>
             
             <div className="space-y-6 text-stone-500 font-light leading-relaxed max-w-md">
               <p>

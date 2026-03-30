@@ -2,6 +2,11 @@ import Image from "next/image";
 import { ArrowRight, ShieldCheck } from "lucide-react";
 import Link from 'next/link'
 
+export const metadata = {
+  title: "Our Dental Services | Bright Smile Clinic - Ludhiana",
+  description: "Explore all dental services at Bright Smile Clinic, including root canal, braces, teeth cleaning, cosmetic dentistry, and more.",
+};
+
 const SignatureServices = () => {
 
   const services = [
@@ -67,7 +72,7 @@ const SignatureServices = () => {
 
         {/* Header */}
         <div className="mb-14 border-b border-stone-200 pb-8 flex justify-between items-end">
-          <h2 className="text-4xl md:text-6xl font-serif">Our Services</h2>
+          <h1 className="text-4xl md:text-6xl font-serif">Our Services</h1>
         </div>
 
         {/* Services Grid (Design Unchanged) */}

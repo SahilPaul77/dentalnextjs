@@ -1,6 +1,11 @@
 import Image from 'next/image'
 import Animation from "../../animations/expert.jsx";
 
+export const metadata = {
+  title: "Best Dentist in Ludhiana – Dr. Shivani Sharma | Smile Care Clinic",
+  description: "Looking for the best dentist in Ludhiana? Dr. Shivani Sharma provides expert dental care including root canal, braces, teeth cleaning, and more.",
+};
+
 import { 
   GraduationCap, 
   MapPin, 
@@ -12,8 +17,6 @@ import {
 } from 'lucide-react';
 
 const MasterDoctorProfile = () => {
-
-
 
   const expertise = [
     "General Dentistry",
@@ -53,9 +56,9 @@ const MasterDoctorProfile = () => {
               
               {/* Header */}
               <div className="mb-12">
-                <h2 className="text-5xl md:text-7xl font-serif text-stone-900 leading-[0.9] mb-4">
+                <h1 className="text-5xl md:text-7xl font-serif text-stone-900 leading-[0.9] mb-4">
                   Dr. Shivani Sharma
-                </h2>
+                </h1>
                 <p className="text-stone-400 font-serif italic text-xl">
                   MBBS, MD
                 </p>

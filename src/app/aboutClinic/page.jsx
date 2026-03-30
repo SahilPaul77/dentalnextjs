@@ -2,7 +2,15 @@ import AboutClinicAnimation from "../../animations/aboutClinic.jsx";
 import Image from 'next/image'
 import { Stethoscope, ShieldCheck, Smile, Hospital } from "lucide-react";
 
+ export const metadata = {
+  title: "About Us | Bright Smile - Trusted Dentist in Ludhiana",
+  description:
+    "Learn about our experienced dentist in [City], qualifications, and commitment to providing safe and painless dental care.",
+};
+
 export default function AboutClinic() {
+
+ 
   const features = [
     {
       icon: <Stethoscope size={18} />,
@@ -50,9 +58,9 @@ export default function AboutClinic() {
 
           {/* Text */}
           <div id="about-text" className="flex flex-col">
-            <h2 className="text-4xl md:text-6xl font-serif mb-8 leading-[1.05] md:leading-[1.1]">
+            <h1 className="text-4xl md:text-6xl font-serif mb-8 leading-[1.05] md:leading-[1.1]">
               About Bright Smile
-            </h2>
+            </h1>
 
             <p className="text-stone-500 font-light leading-relaxed mb-12 max-w-lg">
               Our dental hospital delivers comprehensive oral healthcare using
