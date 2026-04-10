@@ -24,8 +24,8 @@ export const metadata = {
   images: [
   {
     url: "https://dentalnextjs.vercel.app/images/hero2.jpg",
-    width: 500,
-    height: 300,
+    width: 1000,
+    height: 600,
   }
   ]
   }
