@@ -22,9 +22,11 @@ export const metadata = {
   title: "Bright Smile",
   description: "Experienced dentist in Ludhiana. Book appointment for root canal, teeth cleaning, braces and more.",
   images: [
-    {
-      url:'/images/hero2.jpg'
-    }
+  {
+    url: "https://dentalnextjs.vercel.app/images/hero2.jpg",
+    width: 1200,
+    height: 630,
+  }
   ]
   }
 };
