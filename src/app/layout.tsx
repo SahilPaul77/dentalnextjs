@@ -19,7 +19,7 @@ export const metadata = {
   title: "Bright Smile | Best Dentist in Ludhiana",
   description: "Experienced dentist in Ludhiana. Book appointment for root canal, teeth cleaning, braces and more.",
   openGraph:{
-  title: "Bright Smile | Best Dentist in Ludhiana",
+  title: "Bright Smile",
   description: "Experienced dentist in Ludhiana. Book appointment for root canal, teeth cleaning, braces and more.",
   images: [
     {
