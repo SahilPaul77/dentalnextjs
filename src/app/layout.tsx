@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from './navbar/page.jsx'
 import Footer from './footer/page.jsx'
+import Image from 'next/image' 
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,8 +16,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Best Dentist in Ludhiana | Bright Smile",
+  title: "Bright Smile | Best Dentist in Ludhiana",
   description: "Experienced dentist in Ludhiana. Book appointment for root canal, teeth cleaning, braces and more.",
+  openGraph:{
+  title: "Bright Smile | Best Dentist in Ludhiana",
+  description: "Experienced dentist in Ludhiana. Book appointment for root canal, teeth cleaning, braces and more.",
+  images: [
+    {
+      url:'/images/hero2.jpg'
+    }
+  ]
+  }
 };
 
 export default function RootLayout({
