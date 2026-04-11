@@ -16,11 +16,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Bright Smile | Best Dentist in Ludhiana  ",
-  description: "Experienced dentist in Ludhiana. Book appointment for root canal, teeth cleaning, braces and more.",
+  title: "Dental World | Best Dentist in Pathankot  ",
+  description: "Experienced dentist in Pathankot. Book appointment for root canal, teeth cleaning, braces and more.",
   openGraph:{
-  title: "Bright Smile | Best Dentist in Ludhiana",
-  description: "Experienced dentist in Ludhiana. Book appointment for root canal, teeth cleaning, braces and more.",
+  title: "Dental World | Best Dentist in Pathankot",
+  description: "Experienced dentist in Pathankot. Book appointment for root canal, teeth cleaning, braces and more.",
   images: [
   {
     url: "https://dentalnextjs.vercel.app/images/hero2.jpg",
