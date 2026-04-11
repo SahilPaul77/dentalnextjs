@@ -16,7 +16,7 @@ const Navbar = () => {
           href="/"
           className="text-lg md:text-xl font-serif tracking-tighter uppercase font-bold"
         >
-          brightsmile
+         Dental World
         </Link>
 
         {/* Desktop Menu */}
