@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { MapPin, Phone, Clock, Calendar } from "lucide-react";
 import { motion } from "framer-motion";
@@ -17,7 +17,6 @@ const GoogleMapSection = () => {
     >
       <div className="container mx-auto max-w-6xl">
         <div className="bg-white border border-stone-100 shadow-sm overflow-hidden rounded-3xl flex flex-col lg:flex-row min-h-[600px]">
-
           {/* Map Side */}
           <div className="w-full lg:w-2/3 h-[400px] lg:h-auto relative transition-all duration-1000">
             <iframe
@@ -44,14 +43,13 @@ const GoogleMapSection = () => {
                 <div className="flex gap-4">
                   <MapPin size={20} className="text-stone-300 mt-1" />
                   <p className="text-md text-stone-900 font-medium">
-                     602-A, Krishna Mandir Rd, <Pathankot></Pathankot>
+                    602-A, Krishna Mandir Rd, Pathankot
                   </p>
                 </div>
               </div>
 
               <div className="space-y-8 mt-10">
                 <div className="grid grid-cols-1 gap-3 pt-2">
-
                   <a
                     href="tel:+447894561230"
                     className="md:hidden w-full bg-[#1C1917] text-white h-[56px] rounded-2xl flex items-center justify-center gap-3 hover:bg-stone-800 transition-all"
@@ -82,7 +80,6 @@ const GoogleMapSection = () => {
                       Book Appointment
                     </span>
                   </a>
-
                 </div>
               </div>
             </div>
@@ -91,7 +88,11 @@ const GoogleMapSection = () => {
             <div>
               <div className="mt-12 pt-8 border-t border-stone-300">
                 <div className="flex items-center gap-4 mb-10">
-                  <Clock size={16} strokeWidth={1.5} className="text-stone-400" />
+                  <Clock
+                    size={16}
+                    strokeWidth={1.5}
+                    className="text-stone-400"
+                  />
                   <h4 className="text-[12px] uppercase tracking-[0.3em] text-stone-500 font-semibold">
                     Opening Hours
                   </h4>
@@ -118,10 +119,8 @@ const GoogleMapSection = () => {
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
-
           </div>
         </div>
       </div>
