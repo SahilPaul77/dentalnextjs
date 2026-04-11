@@ -59,7 +59,7 @@ export default function AboutClinic() {
           {/* Text */}
           <div id="about-text" className="flex flex-col">
             <h1 className="text-4xl md:text-6xl font-serif mb-8 leading-[1.05] md:leading-[1.1]">
-              About Bright Smile
+              About Dental World
             </h1>
 
             <p className="text-stone-500 font-light leading-relaxed mb-12 max-w-lg">

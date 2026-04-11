@@ -44,7 +44,7 @@ const GoogleMapSection = () => {
                 <div className="flex gap-4">
                   <MapPin size={20} className="text-stone-300 mt-1" />
                   <p className="text-md text-stone-900 font-medium">
-                     602-A, Krishna Mandir Rd, Ludhiana, Punjab 141002
+                     602-A, Krishna Mandir Rd, <Pathankot></Pathankot>
                   </p>
                 </div>
               </div>
