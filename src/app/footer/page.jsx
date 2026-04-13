@@ -86,7 +86,7 @@ const Footer = () => {
               <div>
                 <p className="text-xs text-stone-300 mb-1">Clinic Address</p>
                 <p className="text-sm font-light text-stone-300 leading-relaxed">
-              602-A, Krishna Mandir Rd, Pathankot <br />
+              602-A, Krishna Mandir Rd, Bettiah <br />
                   
                 </p>
               </div>

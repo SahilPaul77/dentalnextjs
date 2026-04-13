@@ -16,11 +16,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Dental World | Best Dentist in Pathankot  ",
+  title: "Smile Dental Care | Best Dentist in Bettiah  ",
   description: "Experienced dentist in Pathankot. Book appointment for root canal, teeth cleaning, braces and more.",
   openGraph:{
-  title: "Dental World | Best Dentist in Pathankot",
-  description: "Experienced dentist in Pathankot. Book appointment for root canal, teeth cleaning, braces and more.",
+  title: "Smile Dental Care | Best Dentist in Bettiah",
+  description: "Experienced dentist in Bettiah. Book appointment for root canal, teeth cleaning, braces and more.",
   images: [
   {
     url: "https://dentalnextjs.vercel.app/images/hero2.jpg",

@@ -80,7 +80,7 @@ const HeroSection = () => {
         {/* MASKED SUBTEXT */}
         <div className="mask-sub overflow-hidden mb-10">
           <span className="block text-stone-700 text-lg md:text-xl font-light tracking-wide italic">
-            Pain-Free & Advanced Dental Care in <span className="font-semibold text-stone-900 not-italic">Pathankot</span>
+            Pain-Free & Advanced Dental Care in <span className="font-semibold text-stone-900 not-italic">Bettiah</span>
           </span>
         </div>
 
